@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isaac Robb - Director of Second Chance Mana PTY LTD</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            padding: 1em;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        nav a:hover {
+            color: #4CAF50;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #4CAF50;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            margin-top: 20px;
+        }
+        .services, .contact {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        .services ul {
+            list-style: none;
+            padding: 0;
+        }
+        .services ul li {
+            margin: 10px 0;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+        .contact-form button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Isaac Robb</h1>
+        <p>Director of Second Chance Mana PTY LTD</p>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I am Isaac Robb, the Director of Second Chance Mana PTY LTD. My mission is to empower individuals of all ages, particularly young people with disabilities, to develop practical life skills that enhance their independence, confidence, and social interaction. At Second Chance Mana, we offer a range of personalized services, including physical fitness training, tool usage, vehicle maintenance, first aid certification, fire safety, outdoor and survival skills, and more.
+            </p>
+            <p>
+                I am passionate about making a difference in my community and helping individuals achieve their personal goals. With a focus on inclusivity and adaptability, our programs are designed to meet the unique needs of our diverse clientele.
+            </p>
+        </section>
+        <section id="services" class="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Physical Fitness Training</li>
+                <li>Tool Usage and Maintenance</li>
+                <li>Vehicle Maintenance</li>
+                <li>First Aid Certification</li>
+                <li>Fire Safety and Emergency Procedures</li>
+                <li>Outdoor and Survival Skills</li>
+                <li>Health and Fitness</li>
+                <li>Goal Setting and Career Preparation</li>
+                <li>Communication Skills Development</li>
+            </ul>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <p>If you're interested in learning more about our programs or want to get in touch, please fill out the form below:</p>
+            <form class="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Isaac Robb. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
